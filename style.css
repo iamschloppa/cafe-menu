@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:ital,wght@1,100;1,200&family=Quicksand:wght@300;400&family=Young+Serif&display=swap');
+
+:root {
+    --red: #ff2222;
+    --red-orange: #ff6643;
+    --honey-yellow: #f9ba5d;
+    --l-brown: #eae4ce;
+    --g-brown: #968369;
+    --d-brown: #6d414d;
+    --black: #000;
+  }
+
+/* body {
+    background-color: var(--g-brown);
+} */
+
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/64203d9600825f68e2488772/1681245133678-NKLMP0QRWSMAVBYJK3ZA/autumn-packing-japan-bronwyn-townsend-6.jpg);
+    background-size: cover;
+}
+
+span#first-k {
+    color: var(--red);
+}
+
+span#sec-k {
+    color: var(--red-orange);
+}
+
+.since {
+    margin-top: -15px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.menu {
+    background-color: var(--l-brown);
+    border-radius: 8px;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.90;
+    padding-bottom: 25px;
+}
+
+.top-line, .bot-line {
+    background-color: var(--d-brown);
+    border-color: var(--d-brown);
+    height: 2px;
+    border: 0;
+    width: 80%;
+}
+
+img {
+    width: 60px;
+    margin-top: -25px;
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+}
+
+h1 {
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+.item, .since {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.item p {
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    font-size: 17px;
+    max-width: 52%;
+}
+
+.flavor, .dessert, .snack {
+    text-align: left;
+    width: 75%;
+    font-family: 'Poppins', sans-serif;;
+  }
+  
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+main {
+    padding-bottom: 15px;
+}
+
+footer {
+    margin: 25px 0 0 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+#address {
+    font-weight: 700;
+}
